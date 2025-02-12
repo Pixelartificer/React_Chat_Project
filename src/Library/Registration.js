@@ -2,17 +2,17 @@ export function registrationInputData() {
     return [
         {
             id: 1,
-            name: "E-mail",
+            name: "email",
         },
 
         {
             id: 2,
-            name: "FullName",
+            name: "fullName",
         },
 
         {
             id: 3,
-            name: "Password",
+            name: "password",
         },
     ];
 }
