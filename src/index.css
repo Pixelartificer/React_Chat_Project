@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root{
+  --blueColor : #5F35F5;
+  --whiteColor : #ffffff;
+  --authHeadingColor: #11175D;
+  --blackColor: #000000;
+  }
+
+  @theme {
+    --color-blueColor:var(--blueColor);
+    --color-whiteColor:var(--whiteColor);
+    --color-authHeadingColor:var(--authHeadingColor);
+    --color-blackColor:var(--blackColor);
+  }
